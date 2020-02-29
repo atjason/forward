@@ -8,7 +8,16 @@ Forward http request.
 
 ## Deploy
 
-Allow all source in nginx.
+Set `cors`, e.g., in nginx.
+
+```
+server
+  {
+    add_header Access-Control-Allow-Origin *;
+  }
+```
+
+Copy `/config_demo.js` to `/config.js`, update to parameter as you like.
 
 ## Usage
 
