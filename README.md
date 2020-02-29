@@ -3,7 +3,7 @@ Forward http request.
 
 ## When it's useful?
 
-- CROS limit of browser.
+- CORS limit of browser.
 - Network limit from source site.
 
 ## Deploy
